@@ -18,3 +18,6 @@ Feature: Negative scenario. As a manager I shouldn't be able to type any letters
     And UserManager On the Recipients field  and click's on Create and Edit new Recipient
     And UserManager files all the required fields
     Then UserManager saves all the information
+
+
+

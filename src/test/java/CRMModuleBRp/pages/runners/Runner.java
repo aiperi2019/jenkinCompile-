@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin = "html:target/cucumber",
         features = "src/test/resources/features",
         glue = "CRMModuleBRp/pages/steps",  // looks inside the package
-        tags = "@cp159",
+        tags = "@CP_149",
         dryRun = false
 )
 public class Runner {
