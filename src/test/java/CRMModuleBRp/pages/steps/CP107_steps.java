@@ -8,7 +8,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 
-public class UserCreationNewQuotation_107_steps {
+public class CP107_steps {
 
     CP_107Page page = new CP_107Page();
     LoginPage login = new LoginPage();

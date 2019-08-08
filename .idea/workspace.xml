@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02eeedd3-00b9-4571-900b-770cd8144fdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cucumbercyberphoneix.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CRMModuleBRp/pages/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CRMModuleBRp/pages/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CRMModuleBRp/pages/steps/cp162_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CRMModuleBRp/pages/steps/cp162_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/cp162Marianna.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/cp162Marianna.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CRMModuleBRp/pages/steps/UserCreationNewQuotation_107_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CRMModuleBRp/pages/steps/CP107_steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CRMModuleBRp/pages/steps/userAbleToSortTableBySelectedCompany_149_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CRMModuleBRp/pages/steps/CP149_steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/userAbleToSortTableBySelectedCompany.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CP_149Cp_107.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,7 +23,20 @@
     <favorites_list name="CRMmoduleCyberPhoenix" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CRMModuleBRp/pages/pages/CP_107Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -82,10 +94,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="816" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -96,7 +107,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,6 +195,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565029277749</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="as">
+      <created>1565064189341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565064189341</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -402,7 +420,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930844" visible="true" weight="0.19098713" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49930844" visible="true" weight="0.35693848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,12 +429,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5006916" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.036144577" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.084337346" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.084337346" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28674698" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19518073" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -583,13 +601,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/userCreatingNewQuotation.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/userCreatingNewQuotation.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/java/CRMModuleBRp/pages/runners/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -600,14 +612,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/userAbleToSortTableBySelectedCompany.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/CP_149Cp_107.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CRMModuleBRp/pages/steps/userAbleToSortTableBySelectedCompany_149_steps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CRMModuleBRp/pages/steps/CP149_steps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -631,7 +643,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CRMModuleBRp/pages/steps/UserCreationNewQuotation_107_steps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CRMModuleBRp/pages/steps/CP107_steps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -672,12 +684,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CRMModuleBRp/pages/pages/CP_107Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="195">
           <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
           </folding>
         </state>
       </provider>

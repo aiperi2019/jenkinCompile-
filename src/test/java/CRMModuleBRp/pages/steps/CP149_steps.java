@@ -9,7 +9,7 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 
-public class userAbleToSortTableBySelectedCompany_149_steps {
+public class CP149_steps {
 
     CP_149 page = new CP_149();
     LoginPage login = new LoginPage();

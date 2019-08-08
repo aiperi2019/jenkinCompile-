@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = "html:target/cucumber",
+        plugin = {"html:target/cucumber","json:target/report.json"},
         features = "src/test/resources/features",
         glue = "CRMModuleBRp/pages/steps",  // looks inside the package
         tags = "@CP_149",
