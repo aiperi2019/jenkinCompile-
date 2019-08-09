@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/userAbleToSortTableBySelectedCompany.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/CP_149Cp_107.feature");
 formatter.feature({
   "name": "As a user I should not be able to create new Quotations/Invoice",
   "description": "  CP-107",
@@ -27,7 +27,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "userAbleToSortTableBySelectedCompany_149_steps.user_is_logged_to_Brite_ERP_as_user()"
+  "location": "CP149_steps.user_is_logged_to_Brite_ERP_as_user()"
 });
 formatter.result({
   "status": "passed"
@@ -37,7 +37,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "userAbleToSortTableBySelectedCompany_149_steps.user_click_on_CRM_button()"
+  "location": "CP149_steps.user_click_on_CRM_button()"
 });
 formatter.result({
   "status": "passed"
@@ -47,7 +47,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "userAbleToSortTableBySelectedCompany_149_steps.user_click_on_Quotation()"
+  "location": "CP149_steps.user_click_on_Quotation()"
 });
 formatter.result({
   "status": "passed"
@@ -57,7 +57,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "userAbleToSortTableBySelectedCompany_149_steps.user_click_on_Search_Button_and_send(String)"
+  "location": "CP149_steps.user_click_on_Search_Button_and_send(String)"
 });
 formatter.result({
   "status": "passed"
